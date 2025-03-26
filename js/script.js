@@ -1,13 +1,13 @@
 // Dichiarazioni variabili e tag HTML
 let priceKm = 0.21;
-let km = document.getElementById('Km'); 
-let age = document.getElementById('età'); 
+let km = document.getElementById('Km');
+let age = document.getElementById('età');
 let button = document.getElementById('Bottone');
 
 // Se premo il bottone, succede questo
-button.addEventListener('click', function(event) {
+button.addEventListener('click', function (event) {
     event.preventDefault();
-    
+
     // Recupero i valori inseriti dall'utente
     let kmValue = parseFloat(km.value);  // Convertiamo il valore in numero
     let ageValue = parseInt(age.value);  // Convertiamo il valore in numero intero
